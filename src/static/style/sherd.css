@@ -1,0 +1,81 @@
+@charset "utf-8";
+body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, textarea, form, select, fieldset, table, td, div, input,button {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+div {
+    text-align: left
+}
+
+a img {
+    border: 0
+}
+
+ul, ol, li {
+    list-style-type: none;
+    vertical-align: 0
+}
+
+a {
+    outline-style: none;
+    color: #535353;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.clear {
+    height: 0;
+    overflow: hidden;
+    clear: both
+}
+
+
+p {
+    font-size: 12px;
+    line-height: 2em;
+    font-family: 微软雅黑, Arail, sans-serif;
+}
+
+span {
+    line-height: 1.5em;
+    font-family: 微软雅黑, Arail, sans-serif;
+}
+
+button {
+    font-family: 微软雅黑, Arail, sans-serif;
+    outline: none;
+}
+
+input {
+    outline: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
